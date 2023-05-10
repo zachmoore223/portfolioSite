@@ -1,6 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-import Portfolio from './components/Portfoloio';
 import NavBar from './components/NavBar';
 
 function App() {
@@ -10,21 +9,26 @@ function App() {
       <NavBar />
       </header>
       <body>
-      <Portfolio />
-        <h2 id="about-me">About Me</h2>
-        <p>dalgjla</p>
-        
+      <br /><br />
+      <div id="about-me">
+        <h2>About Me</h2>
+        <p>
+          I am a Bodily Injury Claims Adjuster transitioning into a Software Development role. I graduated from an intensive coding bootcamp with a Certificate of Software Development. 
+          I have built front-end and back-end web applications using Java, Spring Boot, HTML, CSS, JavaScript, Github, and other frameworks. In my free time I practice jiu jitsu and play board games.
+          </p>
+       </div>
           <br />
 
+      <div id="skills">
         <h2 id="skills">Skills</h2>
         <p>dalgjla</p>
-
+      </div>
         <br />
 
-
-        <h2 id="projects">Projects</h2>
+      <div id="projects">
+        <h2>Projects</h2>
         <p>dalgjla</p>
-
+      </div>
       </body>
     </div>
   );

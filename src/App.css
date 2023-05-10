@@ -43,3 +43,15 @@ li {
 li:last-child {
   border-right: none;
 }
+
+body {
+  background-color: black;
+}
+
+h2 {
+  color: red;
+}
+
+p {
+  color: white;
+}
