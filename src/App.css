@@ -12,7 +12,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #252525;
 }
 
 li {
@@ -45,13 +45,18 @@ li:last-child {
 }
 
 body {
-  background-color: black;
+  background-color: #333;
 }
 
 h2 {
-  color: red;
+  color: rgb(185, 25, 25);
 }
 
 p {
   color: white;
+}
+
+#portfolioPic {
+  max-width: 50%;
+  height: auto;
 }
