@@ -83,6 +83,15 @@ p {
   margin-left: 0px;
 }
 
+.email {
+  display: flex;
+  align-items: center;
+  float: right;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: 100px;
+}
+
 .name{
   color: white;
   margin-left: 100px;
