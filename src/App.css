@@ -57,6 +57,22 @@ p {
 }
 
 #portfolioPic {
-  max-width: 50%;
-  height: auto;
+  float: right;
+  margin-right: 10px;
+  padding-right: 45px;
+  padding-left: 45px;
 }
+
+.about-me{
+  overflow: auto;
+}
+
+.phone, .email {
+  float: right;
+  padding: 0 15px;
+  margin-left: auto;
+}
+
+
+
+
