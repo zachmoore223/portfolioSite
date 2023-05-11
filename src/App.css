@@ -12,7 +12,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #252525;
+  background-color: #666666;
 }
 
 li {
@@ -29,15 +29,10 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: #111;
+  background-color: #878787;
 }
 .active {
-  background-color: #ff1414;
-}
-
-/* Add a gray right border to all list items, except the last item (last-child) */
-li {
-  border-right: 1px solid #bbb;
+  background-color: #4d0000;
 }
 
 li:last-child {
@@ -45,11 +40,11 @@ li:last-child {
 }
 
 body {
-  background-color: #333;
+  background-color: #9c9c9c;
 }
 
 h2 {
-  color: rgb(185, 25, 25);
+  color: rgb(61, 52, 52);
 }
 
 p {
@@ -71,6 +66,29 @@ p {
   float: right;
   padding: 0 15px;
   margin-left: auto;
+  margin-right: 100px;
+  padding-top: 15px;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  float: right;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: 100px;
+}
+
+.social-links img {
+  margin-left: 0px;
+}
+
+.name{
+  color: white;
+  margin-left: 100px;
+  margin-top: 18px;
+  margin-bottom: 0px;
+  font-size: xx-large;
 }
 
 
