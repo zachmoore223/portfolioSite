@@ -87,9 +87,10 @@ p {
 .name{
   color: white;
   margin-left: 100px;
-  margin-top: 18px;
+  margin-top: 7px;
   margin-bottom: 0px;
-  font-size: xx-large;
+  font-size: 45px;
+  letter-spacing: 5px;
 }
 
 /* unvisited link */
