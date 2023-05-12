@@ -761,6 +761,18 @@ a:active {
 .socialsTextPhone{
   display: none;
 }
+
+.about-me{
+  margin-left: 10px;
+}
+
+.skills{
+  margin-left: 10px;
+}
+
+.projects{
+  margin-left: 20px;
+}
 }
 
 @media screen and (max-width: 490px) {
@@ -850,6 +862,18 @@ a:active {
 #portfolioPic{
   display: none;
 }
+
+.about-me{
+  margin-left: 10px;
+}
+
+.skills{
+  margin-left: 10px;
+}
+
+.projects{
+  margin-left: 20px;
+}
 }
 
 @media screen and (max-width: 450px) {
@@ -936,6 +960,8 @@ a:active {
   display: none;
 }
 
+
+
 .about-me{
   margin-left: 10px;
 }
@@ -947,6 +973,7 @@ a:active {
 .projects{
   margin-left: 20px;
 }
+
 
 }
 
