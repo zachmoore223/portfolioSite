@@ -11,6 +11,7 @@
   list-style: none;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   margin-bottom: 20px;
   margin-left: 3px;
   margin-right: 25px;
@@ -21,6 +22,18 @@
   max-width: 300px; /* adjust the value as needed */
   height: 350px; /* adjust the value as needed */
   overflow: auto;
+}
+
+/* Links for Projects Page */
+
+.viewCodeButton{
+  color: white;
+  background-color: black;
+  align-self: center;
+}
+
+.viewCodeButton:hover {
+  background-color: rgb(140, 0, 0);
 }
 
 h4 {
@@ -58,7 +71,7 @@ li a {
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+.social-links a:hover {
   background-color: #878787;
 }
 .active {
@@ -153,12 +166,226 @@ a:active {
   color: rgb(144, 144, 144);
 }
 
-.viewCodeButton{
+
+@media screen and (max-width: 1000px) {
+
+  /* Links for Projects Page */
+  
+  .viewCodeButton{
+    color: white;
+    background-color: black;
+    align-self: center;
+  }
+  
+  .viewCodeButton:hover {
+    background-color: rgb(140, 0, 0);
+  }
+  
+  h4 {
+    color: white;
+    font-style: bold;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #666666;
+    height: 100px;
+  }
+  
+  li {
+    float: auto;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .name{
   color: white;
-  background-color: black;
-  align-self: center;
-  margin-top: auto; /* push the button to the bottom */
+  margin-left: 0px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-size: 25px;
+  letter-spacing: 5px;
 }
 
+.phone, .email {
+  float: right;
+  padding: 0 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 13px;
+}
 
+.social-links {
+  display: flex;
+  align-items: center;
+  float: right;
+  padding: 0 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
 
+@media screen and (max-width: 880px) {
+
+  /* Links for Projects Page */
+  
+  .viewCodeButton{
+    color: white;
+    background-color: black;
+    align-self: center;
+  }
+  
+  .viewCodeButton:hover {
+    background-color: rgb(140, 0, 0);
+  }
+  
+  h4 {
+    color: white;
+    font-style: bold;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #666666;
+    height: 100px;
+  }
+  
+  li {
+    float: auto;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .name{
+  color: white;
+  margin-left: 3px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-size: 25px;
+  letter-spacing: 5px;
+}
+
+.phone, .email {
+  float: right;
+  padding: 0 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 13px;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  float: right;
+  padding: 0 3px;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
+
+@media screen and (max-width: 840px) {
+
+  /* Links for Projects Page */
+  
+  .viewCodeButton{
+    color: white;
+    background-color: black;
+    align-self: center;
+  }
+  
+  .viewCodeButton:hover {
+    background-color: rgb(140, 0, 0);
+  }
+  
+  h4 {
+    color: white;
+    font-style: bold;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #666666;
+    height: 100px;
+  }
+  
+  li {
+    float: auto;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .name{
+  color: white;
+  margin-left: 15px;
+  margin-right: 5px;
+  margin-top: 28px;
+  margin-bottom: 0px;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.phone, .email {
+  float: right;
+  padding: 0 5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 13px;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  float: right;
+  padding: 0 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
