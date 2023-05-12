@@ -411,6 +411,12 @@ a:active {
   font-size: 0px;
   margin-left: auto;
 }
+
+#portfolioPic{
+  padding-top: 15px;
+  width: 35%;
+  height: 35%
+}
 }
 
 @media screen and (max-width: 870px) {
@@ -838,6 +844,10 @@ a:active {
   display: none;
 }
 .socialsTextPhone{
+  display: none;
+}
+
+#portfolioPic{
   display: none;
 }
 }
