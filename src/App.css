@@ -9,15 +9,17 @@
 
 .projectsList li {
   list-style: none;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
   margin-bottom: 20px;
   margin-left: 3px;
+  margin-right: 25px;
   padding: 20px;
   background-color: #5c5c5c;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
   max-width: 300px; /* adjust the value as needed */
-  height: 300px; /* adjust the value as needed */
+  height: 350px; /* adjust the value as needed */
   overflow: auto;
 }
 
@@ -81,6 +83,7 @@ p {
 
 #portfolioPic {
   float: right;
+  margin-top: -60px;
   margin-right: 10px;
   padding-right: 45px;
   padding-left: 45px;
@@ -148,6 +151,13 @@ a:hover {
 /* selected link */
 a:active {
   color: rgb(144, 144, 144);
+}
+
+.viewCodeButton{
+  color: white;
+  background-color: black;
+  align-self: center;
+  margin-top: auto; /* push the button to the bottom */
 }
 
 
