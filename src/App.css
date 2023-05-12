@@ -166,8 +166,7 @@ a:active {
   color: rgb(144, 144, 144);
 }
 
-
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1300px) {
 
   /* Links for Projects Page */
   
@@ -219,7 +218,92 @@ a:active {
   margin-left: 0px;
   margin-top: 20px;
   margin-bottom: 0px;
+  font-size: 55px;
+  letter-spacing: 5px;
+}
+
+.phone, .email {
+  float: right;
+  padding: 0 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 13px;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  float: right;
+  padding: 0 10px;
+  margin-left: auto;
+  margin-right: 25px;
+  padding-top: 20px;
+}
+
+.socialsText {
+  font-size: 0px;
+  margin-left: auto;
+}
+
+.socialsTextPhone {
   font-size: 25px;
+}
+}
+
+
+@media screen and (max-width: 1070px) {
+
+  /* Links for Projects Page */
+  
+  .viewCodeButton{
+    color: white;
+    background-color: black;
+    align-self: center;
+  }
+  
+  .viewCodeButton:hover {
+    background-color: rgb(140, 0, 0);
+  }
+  
+  h4 {
+    color: white;
+    font-style: bold;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #666666;
+    height: 100px;
+  }
+  
+  li {
+    float: auto;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .name{
+  color: white;
+  margin-left: 0px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-size: 45px;
   letter-spacing: 5px;
 }
 
@@ -238,10 +322,17 @@ a:active {
   padding: 0 10px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 25px;
+  padding-right: 25px;
+}
+
+.socialsText {
+  font-size: 0px;
+  margin-left: auto;
 }
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 970px) {
 
   /* Links for Projects Page */
   
@@ -291,9 +382,9 @@ a:active {
   .name{
   color: white;
   margin-left: 3px;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 0px;
-  font-size: 25px;
+  font-size: 35px;
   letter-spacing: 5px;
 }
 
@@ -312,10 +403,17 @@ a:active {
   padding: 0 3px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 25px;
+  padding-right: 20px;
+}
+
+.socialsText {
+  font-size: 0px;
+  margin-left: auto;
 }
 }
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 870px) {
 
   /* Links for Projects Page */
   
@@ -366,9 +464,9 @@ a:active {
   color: white;
   margin-left: 15px;
   margin-right: 5px;
-  margin-top: 28px;
+  margin-top: 35px;
   margin-bottom: 0px;
-  font-size: 20px;
+  font-size: 30px;
   letter-spacing: 2px;
 }
 
@@ -387,5 +485,528 @@ a:active {
   padding: 0 0px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 25px;
+  padding-right: 25px;
+}
+
+.socialsText {
+  font-size: 0px;
+  margin-left: auto;
+}
+.socialsTextPhone{
+  font-size: 15px;
+  margin-top: 30px;
+}
+}
+
+@media screen and (max-width: 740px) {
+
+  /* Links for Projects Page */
+  
+  .viewCodeButton{
+    color: white;
+    background-color: black;
+    align-self: center;
+  }
+  
+  .viewCodeButton:hover {
+    background-color: rgb(140, 0, 0);
+  }
+  
+  h4 {
+    color: white;
+    font-style: bold;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #666666;
+    height: 100px;
+  }
+  
+  li {
+    float: auto;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .name{
+  color: white;
+  margin-left: 15px;
+  margin-right: 5px;
+  margin-top: 38px;
+  margin-bottom: 0px;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+.phone, .email {
+  float: right;
+  padding: 0 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 13px;
+  padding-left: 0px;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  float: right;
+  padding: 0 0px;
+  margin-right: auto;
+  padding-top: 25px;
+  padding-right: 15px;
+  padding-left: 0px;
+}
+
+.socialsText {
+  font-size: 0px;
+  margin-left: auto;
+}
+.socialsTextPhone{
+  font-size: 12px;
+  margin-top: 35px;
+}
+}
+
+@media screen and (max-width: 650px) {
+
+  /* Links for Projects Page */
+  
+  .viewCodeButton{
+    color: white;
+    background-color: black;
+    align-self: center;
+  }
+  
+  .viewCodeButton:hover {
+    background-color: rgb(140, 0, 0);
+  }
+  
+  h4 {
+    color: white;
+    font-style: bold;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #666666;
+    height: 75px;
+  }
+  
+  li {
+    float: auto;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .name{
+  color: white;
+  margin-left: 15px;
+  margin-right: 5px;
+  margin-top: 25px;
+  margin-bottom: 0px;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.phone, .email {
+  float: right;
+  padding: 0 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 1px;
+  padding-left: 0px;
+  padding-right: 5px;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  float: right;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-right: 2px;
+  padding-left: -2px;
+}
+
+.socialsText {
+  display: none;
+}
+.socialsTextPhone{
+  font-size: 12px;
+  margin-top: 35px;
+}
+}
+
+@media screen and (max-width: 570px) {
+
+  /* Links for Projects Page */
+  
+  .viewCodeButton{
+    color: white;
+    background-color: black;
+    align-self: center;
+  }
+  
+  .viewCodeButton:hover {
+    background-color: rgb(140, 0, 0);
+  }
+  
+  h4 {
+    color: white;
+    font-style: bold;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #666666;
+    height: 75px;
+  }
+  
+  li {
+    float: auto;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .name{
+  color: white;
+  margin-left: 15px;
+  margin-right: 5px;
+  margin-top: 25px;
+  margin-bottom: 0px;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.phone, .email {
+  float: right;
+  padding: 0 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 1px;
+  padding-left: 0px;
+  padding-right: 5px;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  float: right;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-right: 0px;
+  padding-left: -2px;
+}
+
+.socialsText {
+  display: none;
+}
+.socialsTextPhone{
+  display: none;
+}
+}
+
+@media screen and (max-width: 490px) {
+
+  /* Links for Projects Page */
+  
+  .viewCodeButton{
+    color: white;
+    background-color: black;
+    align-self: center;
+  }
+  
+  .viewCodeButton:hover {
+    background-color: rgb(140, 0, 0);
+  }
+  
+  h4 {
+    color: white;
+    font-style: bold;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #666666;
+    height: 75px;
+  }
+  
+  li {
+    float: auto;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .name{
+  color: white;
+  margin-left: 5px;
+  margin-right: 0px;
+  margin-top: 25px;
+  margin-bottom: 0px;
+  font-size: 20px;
+  letter-spacing: 0px;
+}
+
+.phone, .email {
+  float: right;
+  padding: 0 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 1px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  float: right;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-right: 0px;
+  padding-left: -2px;
+}
+
+.socialsText {
+  display: none;
+}
+.socialsTextPhone{
+  display: none;
+}
+}
+
+@media screen and (max-width: 450px) {
+
+  /* Links for Projects Page */
+  
+  .viewCodeButton{
+    color: white;
+    background-color: black;
+    align-self: center;
+  }
+  
+  .viewCodeButton:hover {
+    background-color: rgb(140, 0, 0);
+  }
+  
+  h4 {
+    color: white;
+    font-style: bold;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #666666;
+    height: 55px;
+  }
+  
+  li {
+    float: auto;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .name{
+  color: white;
+  margin-left: 5px;
+  margin-right: 0px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-size: 12px;
+  letter-spacing: 0px;
+}
+
+.phone, .email {
+  float: right;
+  padding: 0 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 1px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  float: right;
+  margin-right: auto;
+  padding-top: 1px;
+  padding-right: 0px;
+  padding-left: -2px;
+}
+
+.socialsText {
+  display: none;
+}
+.socialsTextPhone{
+  display: none;
+}
+}
+
+@media screen and (max-width: 390px) {
+
+  /* Links for Projects Page */
+  
+  .viewCodeButton{
+    color: white;
+    background-color: black;
+    align-self: center;
+  }
+  
+  .viewCodeButton:hover {
+    background-color: rgb(140, 0, 0);
+  }
+  
+  h4 {
+    color: white;
+    font-style: bold;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #666666;
+    height: 55px;
+  }
+  
+  li {
+    float: auto;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .name{
+  display: none;
+}
+
+.phone, .email {
+  float: right;
+  padding: 0 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 1px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  float: right;
+  margin-right: auto;
+  padding-top: 1px;
+  padding-right: 0px;
+  padding-left: -2px;
+}
+
+.socialsText {
+  display: none;
+}
+.socialsTextPhone{
+  display: none;
+}
+
+#portfolioPic{
+  width: 45%;
+  height: 45%;
 }
 }

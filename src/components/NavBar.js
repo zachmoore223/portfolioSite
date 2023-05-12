@@ -18,22 +18,22 @@ export default function NavBar() {
        <h3 className='name'>- Zach Moore -</h3> 
       </li>
       <li className='phone'>
-       <p>419-612-7542</p> 
+       <p className='socialsTextPhone'>419-612-7542</p> 
       </li>
       <li className='social-links'>
-      <a href="mailto:zachmoore223@gmail.com" target="_blank" rel="noopener noreferrer"><p>E-mail</p></a>
+      <a href="mailto:zachmoore223@gmail.com" target="_blank" rel="noopener noreferrer"><p className='socialsText'>E-mail</p></a>
         <a href="mailto:zachmoore223@gmail.com" target="_blank" rel="noopener noreferrer">
-        <img id='github' src={email} alt="linkedIn logo" height="35px" width="35px"></img>
+        <img id='email' src={email} alt="linkedIn logo" height="35px" width="35px"></img>
         </a>
       </li>
       <li className='social-links'>
-      <a href="http://www.linkedin.com/in/zachmoore223" target="_blank" rel="noopener noreferrer"><p>LinkedIn</p></a>
+      <a href="http://www.linkedin.com/in/zachmoore223" target="_blank" rel="noopener noreferrer"><p className='socialsText'>LinkedIn</p></a>
         <a href="http://www.linkedin.com/in/zachmoore223" target="_blank" rel="noopener noreferrer">
-        <img id='github' src={linkedIn} alt="linkedIn logo" height="35px" width="35px"></img>
+        <img id='linkedin' src={linkedIn} alt="linkedIn logo" height="35px" width="35px"></img>
         </a>
       </li>
       <li className='social-links'>
-      <a href="https://github.com/zachmoore223" target="_blank" rel="noopener noreferrer"><p>GitHub</p></a>
+      <a href="https://github.com/zachmoore223" target="_blank" rel="noopener noreferrer"><p className='socialsText'>GitHub</p></a>
         <a href="https://github.com/zachmoore223" target="_blank" rel="noopener noreferrer">
           <img id='github' src={github} alt="github logo" height="35px" width="35px"></img>
         </a>
