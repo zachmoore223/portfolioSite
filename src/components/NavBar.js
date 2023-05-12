@@ -15,7 +15,7 @@ export default function NavBar() {
     <nav>
     <ul>
       <li>
-       <h3 className='name'>Zach Moore</h3> 
+       <h3 className='name'>- Zach Moore -</h3> 
       </li>
       <li className='phone'>
        <p>419-612-7542</p> 

@@ -1,7 +1,7 @@
 import portfoloioPic from '../images/portfolioPic.jpg'
 export default function AboutMe() {
 return (
-    <div id="about-me">
+    <div className="about-me">
         <h2>About Me</h2>
         <img id='portfolioPic' src={portfoloioPic} alt="portfolioPic" height="500px" width="500px"/>
         <p>

@@ -18,6 +18,7 @@ function App() {
           <br />
       <Skills />
         <br />
+      <h2 className='projects'>Projects</h2>
       <Projects />      
       </body>
     </div>
