@@ -3,6 +3,22 @@ export default function Projects() {
 return (
 <div className="projects">
   <ol className="projectsList">
+
+      <li className="projectsLI"> 
+          <div className="inlineHeader">          
+            <h4 >WeatherApp  &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;        
+            </h4>
+            <a className="visitApp" href="https://zachweatherapp.com" target="_blank">Visit App</a>
+          </div> 
+            Designed and implemented a single page web design using React and a weather API to display, current, hourly, and daily forecast
+            for select cities.
+            <br/><br/>
+            <strong>Tech:</strong> React, JSON, Javascript, HTML, CSS, REST API
+            <br/><br/>
+            <a className='viewCodeLink' href="https://github.com/zachmoore223/weather.git" target="_blank">
+            <button className="viewCodeButton"> View Code</button>
+            </a>
+        </li>
     
         <li className="projectsLI">
         
