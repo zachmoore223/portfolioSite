@@ -1,4 +1,5 @@
 import portfoloioPic from '../images/portfolioPic.jpg'
+
 export default function AboutMe() {
 return (
     <div className="about-me">

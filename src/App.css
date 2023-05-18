@@ -1,3 +1,10 @@
+.resume{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:rgb(0, 0, 0)
+}
+
 .projectsList {
   list-style-type: none;
   margin: 0;
@@ -81,7 +88,7 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 .social-links a:hover {
-  background-color: #878787;
+  background-color: #8c8c8c;
 }
 .active {
   background-color: #4d0000;
@@ -157,12 +164,12 @@ p {
 
 /* unvisited link */
 a:link {
-  color: rgb(173, 173, 173);
+  color: rgb(0, 0, 0);
 }
 
 /* visited link */
 a:visited {
-  color: rgb(0, 0, 0);
+  color: rgb(71, 71, 71);
 }
 
 /* mouse over link */

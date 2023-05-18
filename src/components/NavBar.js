@@ -18,7 +18,8 @@ export default function NavBar() {
        <h3 className='name'>- Zach Moore -</h3> 
       </li>
       <li className='phone'>
-       <p className='socialsTextPhone'>419-612-7542</p> 
+       <p className='socialsTextPhone'>419-612-7542</p>
+       
       </li>
       <li className='social-links'>
       <a href="mailto:zachmoore223@gmail.com" target="_blank" rel="noopener noreferrer"><p className='socialsText'>E-mail</p></a>
