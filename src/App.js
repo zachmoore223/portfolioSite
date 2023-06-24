@@ -13,13 +13,14 @@ function App() {
       </header>
       <body>
       <br /><br /><br /><br />
-      <div className='resume'> <h3><a href='https://www.zacharymooreportfolio.com/zachMooreResume.pdf' target="_blank" download>Download Resume</a></h3> </div>
       <AboutMe />
           <br />
       <Skills />
         <br />
       <h2 className='projects'>Projects</h2>
-      <Projects />      
+      <Projects />  
+      <br></br>
+      <div className='resume'> <h3><a href='https://www.zacharymooreportfolio.com/zachMooreResume.pdf' target="_blank" download>Download Resume</a></h3> </div>    
       </body>
     </div>
   );
