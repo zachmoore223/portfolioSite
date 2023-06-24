@@ -4,7 +4,7 @@ import AboutMe from './components/AboutMe';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import NavBar from './components/NavBar';
-import zachResume from './zach-moore-resume-2023.pdf'
+import zachMooreResume from './zachMooreResume.pdf'
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       </header>
       <body>
       <br /><br /><br /><br />
-      <div className='resume'> <h3><a href={zachResume} download="zach-moore-resume-2023.pdf">Download Resume</a></h3> </div>
+      <div className='resume'> <h3><a href={zachMooreResume} download="zachMooreResume.pdf">Download Resume</a></h3> </div>
       <AboutMe />
           <br />
       <Skills />
