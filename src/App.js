@@ -4,7 +4,6 @@ import AboutMe from './components/AboutMe';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import NavBar from './components/NavBar';
-import zachMooreResume from '../public/zachMooreResume.pdf'
 
 function App() {
   return (
@@ -14,7 +13,7 @@ function App() {
       </header>
       <body>
       <br /><br /><br /><br />
-      <div className='resume'> <h3><a href={zachMooreResume} download="zachMooreResume.pdf">Download Resume</a></h3> </div>
+      <div className='resume'> <h3><a href='https://www.zacharymooreportfolio.com/zachMooreResume.pdf' target="_blank" download>Download Resume</a></h3> </div>
       <AboutMe />
           <br />
       <Skills />
