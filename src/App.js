@@ -4,7 +4,7 @@ import AboutMe from './components/AboutMe';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import NavBar from './components/NavBar';
-import zachMooreResume from './zachMooreResume.pdf'
+import zachMooreResume from '../public/zachMooreResume.pdf'
 
 function App() {
   return (
